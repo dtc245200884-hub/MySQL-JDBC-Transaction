@@ -1,0 +1,53 @@
+/* Thiết lập font chữ và màu nền chung */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Định dạng Card chứa form và bảng */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+/* Tùy chỉnh hiệu ứng input khi focus */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Tùy chỉnh nút bấm */
+.btn {
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+/* Định dạng bảng dữ liệu chung */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #212529 !important;
+    color: #ffffff !important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
